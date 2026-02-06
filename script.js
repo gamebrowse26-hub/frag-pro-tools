@@ -59,19 +59,15 @@ function showContent(type) {
 
   else if (type === "tier") {
     content = `
-      <h3>🏆 FRAG Tournament Tier List</h3>
-      <p>Updated for current meta – Competitive play</p>
-
+      <h3>🏆 FRAG Competitive Tier List</h3>
       <img 
         src="tier-list.jpg" 
-        alt="FRAG Tier List"
-        class="tier-image"
+        alt="FRAG Tier List" 
+        style="width:100%; border-radius:10px; margin-top:10px;"
       >
-
-      <small>
-        ⚠️ Tier list is for competitive & tournament use.<br>
-        Meta may change with updates.
-      </small>
+      <p style="margin-top:10px; font-size:13px; color:#94a3b8;">
+        Updated for current meta – Tournament & Ranked Play
+      </p>
     `;
   }
 
