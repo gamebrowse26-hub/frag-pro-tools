@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FRAG Pro Tools</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>🎮 FRAG Pro Tools</h1>
+  <p class="subtitle">Pro settings for competitive players</p>
+
+  <div class="menu">
+    <button onclick="showContent('sensitivity')">🎯 Sensitivity</button>
+    <button onclick="showContent('settings')">⚙️ Best Settings</button>
+    <button onclick="showContent('fps')">🚀 FPS Boost</button>
+    <button onclick="showContent('aim')">🔥 Aim Training</button>
+    <button onclick="showContent('tier')">🏆 Tier List</button>
+  </div>
+
+  <!-- IMPORTANT: contentBox is EMPTY by default -->
+  <div id="contentBox" class="content-box">
+    <p>Click a button above 👆</p>
+  </div>
+
+  <!-- ONLY external JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
